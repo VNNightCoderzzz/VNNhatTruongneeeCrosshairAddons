@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "vnnhattruongneeecrosshairaddons",
+  "version": "1.0.0",
+  "name": "VNNhatTruongneee's Crosshair Addons",
+  "description": "A sophisticated, combat-focused utility that dynamically enhances crosshair feedback for precision PvP, developed by VNNhatTruongneee to optimize player engagement and reach accuracy in Minecraft.",
+  "authors": ["VNNhatTruongneee"],
+  "contributors": ["kairi_nino (Idea Provider)"],
+  "contact": {},
+  "license": "CC-BY-NC-SA-4.0",
+  "icon": "assets/vnnhattruongneeecrosshairaddons/logo.png",
+  "environment": "client",
+  "entrypoints": {
+  "client": [
+    "net.vnnhattruongneee.crosshairaddons.CrosshairAddons"
+  ]
+},
+  "mixins": ["vnnhattruongneeecrosshairaddons.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "fabric-api": "*",
+    "fabric-language-kotlin": "*",
+    "vnnhattruongneeelib": ">=0.10.3"
+  }
+}
