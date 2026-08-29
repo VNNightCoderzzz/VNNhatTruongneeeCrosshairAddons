@@ -1,0 +1,42 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "CC-BY-NC-SA-4.0"
+
+[[mods]]
+modId = "vnnhattruongneeecrosshairaddons"
+version = "${version}"
+displayName = "VNNhatTruongneee's Crosshair Addons"
+displayURL = ""
+logoFile = "assets/vnnhattruongneeecrosshairaddons/logo.png"
+authors = "VNNhatTruongneee"
+
+credits = "kairi_nino (Idea Provider)"
+description = '''
+A sophisticated, combat-focused utility that dynamically enhances crosshair feedback for precision PvP, developed by VNNhatTruongneee to optimize player engagement and reach accuracy in Minecraft.
+'''
+
+displayTest = "IGNORE_ALL_VERSION"
+
+[[mixins]]
+config = "vnnhattruongneeecrosshairaddons.mixins.json"
+
+[[dependencies.vnnhattruongneeecrosshairaddons]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21,)"
+ordering = "NONE"
+side = "CLIENT"
+
+[[dependencies.vnnhattruongneeecrosshairaddons]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.11]"
+ordering = "NONE"
+side = "CLIENT"
+
+[[dependencies.vnnhattruongneeecrosshairaddons]]
+modId = "cloth_config"
+type = "required"
+versionRange = "[21,)"
+ordering = "AFTER"
+side = "CLIENT"
