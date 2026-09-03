@@ -6,7 +6,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-Fabric%20%7C%20NeoForge-blue)
 
-A powerful extension for crosshairs, optimizing observation and reflexes in PvP matches, especially Crystal PvP on servers like DonutSMP.
+A powerful extension for crosshairs, optimizing observation and reflexes in PvP matches.
 
 ---
 
@@ -26,8 +26,11 @@ This is the main feature that helps you never miss a decisive shot:
 
 ## ⚙️ System Requirements
 For optimal mod performance on version **1.21.11**, you need to install the following dependencies:
-1. [Fabric Loader](https://fabricmc.net/)
+1. [Fabric Loader](https://fabricmc.net/) (Required)
+2. [Fabric Kotlin Language](https://modrinth.com/mod/fabric-language-kotlin/) (Required)
+3. [Fabric API](https://modrinth.com/mod/fabric-api) (Required)
 
+if you use the older version of VNNhatTruongneee's Crosshair Addon, you will need VNNhatTruongneeeLib
 
 ## 📜 License
 This project uses the **CC-BY-NC-SA 4.0** license.
