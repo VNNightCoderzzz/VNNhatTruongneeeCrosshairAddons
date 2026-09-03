@@ -27,9 +27,7 @@ This is the main feature that helps you never miss a decisive shot:
 ## ⚙️ System Requirements
 For optimal mod performance on version **1.21.11**, you need to install the following dependencies:
 1. [Fabric Loader](https://fabricmc.net/)
-2. [VNNhatTruongneeeLib](https://modrinth.com/) (Required)
 
-Will be remove oWo Jar in Jar for VNNhatTruongneeeLib soon.
 
 ## 📜 License
 This project uses the **CC-BY-NC-SA 4.0** license.
